@@ -1,0 +1,5 @@
+/vendor
+/node_modules
+.env
+*.un~
+.DS_Store

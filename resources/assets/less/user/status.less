@@ -1,0 +1,212 @@
+body.user-status {
+
+	header {
+
+		background: @color-lightgrey;
+		min-height: 600px;
+
+		img {
+			max-height: 600px;
+			margin: 20px 0 0;
+		}
+
+		h1 {
+			margin-top: 30px;
+			line-height: 44px; 
+			font-weight: 700;
+		}
+
+		h2 {
+			margin-top: 60px;
+			color: @color-secondary;
+			font-size: 24px;
+		}
+
+		p.description {
+			margin: 30px 0 50px;
+			color: @color-secondary;
+			font-weight: 300;
+		}
+
+		button {
+			text-transform: none;
+			&:hover {
+				text-decoration: none;
+			}
+			&:focus {
+				outline: none;
+				text-decoration: none;
+			}
+		}
+
+		span.linktext {
+			background: #fff;
+			border: 1px solid @color-secondary;
+			border-radius: @border-radius-small;
+			padding: 10px;
+		}
+
+		.social {
+			display: block;
+			margin: 30px auto;
+			width: 134px;
+
+			.separator {
+				font-size: 18px;
+			}
+
+			.twitter-share-button {
+				position: relative !important;
+				bottom: -4px;
+			}
+		}
+
+		@media(max-width: @screen-xs-max) {
+
+			background: @color-darkgrey;
+
+			.bg {
+				background: url('/img/status-bg2.png') top center no-repeat scroll;
+				position: absolute;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				width: 100%;
+				height:100%;
+				max-height: 600px;
+
+				-webkit-filter: brightness(40%) contrast(70%);
+				filter: brightness(40%) contrast(70%);
+			}
+
+			p.description, 
+			h2 {
+				color: #fff;
+			}
+		}
+
+	}
+
+	section {
+
+		h2 {
+			color: @color-secondary;
+			text-transform: uppercase;
+			font-size: 24px;
+		}
+
+		.offset-left>span {
+			position: relative;
+			left: -30%;
+			width: 100px;
+			display: inline-block;
+			text-align: center;
+
+			@media(max-width: @screen-xs-max) {
+				width: 45px;
+				left: -45%;
+				font-size: 12px;
+			}
+		}
+
+		p {
+			color: @color-secondary;
+			font-weight: 500;
+
+			span.number {
+				color: @color-darkprimary;
+			}
+
+			&.referral-count {
+				margin-top: 30px;
+			}
+
+			&.text-muted {
+				color: @color-darkergrey;
+			}
+
+			&.share-text {
+				margin-top: 20px;
+				font-size: 1.3rem;
+				font-weight: 700;
+
+			}
+		}
+
+		a.resend {
+			color: @color-primary;
+			text-decoration: underline;
+		}
+
+		.progress {
+
+			height: 5px;
+			margin-top: 15px;
+
+			.progress-bar {
+				background-color: @color-secondary;
+			}
+		}
+
+		.rewards,
+		.referrals {
+
+			span {
+				color: @color-secondary;
+
+				&.axis {
+					color: @color-darkprimary;
+				}
+			}
+
+			.reward-level {
+				position: relative;
+				left: -15%;
+
+				img {
+					max-width: 40px;
+
+				}
+
+					span {
+						display: inline-block;
+						margin-left: 10px;
+					}
+
+				&.dimmed {
+
+					span {
+						color: @color-darkergrey;
+					}
+
+					img {
+						-webkit-filter: opacity(20%);
+						filter: opacity(20%);
+						filter: alpha(opacity=20);
+					}
+				}
+
+			}
+
+			span:not(.axis) {
+				font-weight: 700;
+				font-size: 1.1rem;
+			}
+		}
+
+		.referrals {
+			span.axis {
+				position: absolute;
+				bottom: -50px;
+			}
+
+			@media(min-width: @screen-xs-max) {
+				.reward-level>span {
+					bottom: 0px;
+					position: absolute;
+				}
+			}
+		}
+	}
+}

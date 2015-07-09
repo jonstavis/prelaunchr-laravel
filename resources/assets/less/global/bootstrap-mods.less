@@ -1,0 +1,36 @@
+/* bootstrap */
+.btn {
+	text-transform: uppercase;
+
+	&.btn-default {
+		border: 1px solid @color-primary;
+		color: @color-primary;
+
+		&:hover,
+		&:focus {
+			color: @color-secondary;
+			background: @color-lightgrey;
+			border: 1px solid @color-secondary;
+		}
+	}
+
+	&.btn-link {
+		color: @color-secondary;
+
+		&:hover {
+			color: @color-primary;
+		}
+	}
+
+	&.btn-danger {
+		background: @color-primary;
+
+		&:hover {
+			background: @color-darkprimary;
+		}
+	}
+}
+
+.alert {
+	margin-bottom: 0px;
+}

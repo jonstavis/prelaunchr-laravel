@@ -78,8 +78,8 @@ Please change the artwork to use your own brand! MidwestFit does not give you pe
 
 ## Attributions
 
-[Deadlift by Scott Lewis from the Noun Project](https://thenounproject.com/term/deadlift/882/)
-[Weight Lifting by Scott Lewis from the Noun Project](https://thenounproject.com/term/weight-lifting/883/)
-[Person by Connor Shea from the Noun Project](https://thenounproject.com/search/?q=person&i=63361)
-[Person by Bob Smith from the Noun Project](https://thenounproject.com/search/?q=person&i=63858)
-[Weight Lifting by Ben King from the Noun Project](https://thenounproject.com/search/?q=weight-lifting&i=38420)
+* [Deadlift by Scott Lewis from the Noun Project](https://thenounproject.com/term/deadlift/882/)
+* [Weight Lifting by Scott Lewis from the Noun Project](https://thenounproject.com/term/weight-lifting/883/)
+* [Person by Connor Shea from the Noun Project](https://thenounproject.com/search/?q=person&i=63361)
+* [Person by Bob Smith from the Noun Project](https://thenounproject.com/search/?q=person&i=63858)
+* [Weight Lifting by Ben King from the Noun Project](https://thenounproject.com/search/?q=weight-lifting&i=38420)

@@ -2,7 +2,7 @@
 
 Inspired by the [harrystech/prelaunchr](https://github.com/harrystech/prelaunchr) Ruby on Rails app and a [blog post by Tim Ferriss](http://fourhourworkweek.com/2014/07/21/harrys-prelaunchr-email), Prelaunchr-Laravel provides similar functionality for those working with a PHP/Laravel technology stack.  
 
-The app provides an email signup, referral links, private referral status page, and prize levels for various numbers of referrals.  The app was written for the launch of [midwestfit.com](https://midwestfit.com) to gather referrals and offer free membership extensions to users.  By default, the HTML/CSS for MidwestFit is included in this repository.  A demo version of the app can be found [here](http://prelaunchr-laravel.yottaram.com) with emails disabled.
+The app provides an email signup, referral links, private referral status page, and prize levels for various numbers of referrals.  The app was written for the launch of [midwestfit.com](https://midwestfit.com) to gather referrals and offer free membership extensions to users.  By default, the HTML/CSS for MidwestFit is included in this repository.  A demo version of the app can be found [here](http://prelaunch.midwestfit.com/) with emails disabled.
 
 ## Mechanics
 
